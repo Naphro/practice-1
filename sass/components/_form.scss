@@ -40,6 +40,10 @@
     transition: all 0.3s;
   }
 
+  &__radio-input {
+    display: none;
+  }
+
   &__input:placeholder-shown + &__label {
     opacity: 0;
     visibility: hidden;
